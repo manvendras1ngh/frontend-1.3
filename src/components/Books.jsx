@@ -5,7 +5,7 @@ import { RiDeleteBin5Fill } from "react-icons/ri";
 import { Navbar } from "./Navbar";
 
 export function Books() {
-  const url = "http://localhost:5175/api/books";
+  const url = "https://backend-13-eight.vercel.app/api/books";
   const [booksData, setBooksData] = useState([]);
   const [deleting, setDeleting] = useState(false);
 

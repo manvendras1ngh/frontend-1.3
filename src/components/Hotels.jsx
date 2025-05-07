@@ -5,7 +5,7 @@ import { RiDeleteBin5Fill } from "react-icons/ri";
 import { Navbar } from "./Navbar";
 
 export function Hotels() {
-  const url = "http://localhost:5175/api/hotels";
+  const url = "https://backend-13-eight.vercel.app/api/hotels";
   const [hotelsData, setHotelsData] = useState([]);
   const [deleting, setDeleting] = useState(false);
 
