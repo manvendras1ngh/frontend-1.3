@@ -35,7 +35,7 @@ export function Hotels() {
     <>
       <Navbar />
       <div style={{ margin: "2rem" }}>
-        <h1 style={{ fontSize: "4rem" }}>All Books</h1>
+        <h1 style={{ fontSize: "4rem" }}>All Hotels</h1>
 
         <ul style={{ maxWidth: "25rem" }}>
           {hotelsData.map((hotel) => (
